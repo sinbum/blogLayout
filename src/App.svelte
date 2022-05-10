@@ -4,31 +4,29 @@
     export let name;
     import Header from "~/components/header/Header.svelte";
     import Nav from "@nav/Nav.svelte";
-    import Aside from "@side/sidebar.svelte"
+    import Aside from "@side/sidebar.svelte";
+    import SectionSample from "@section/sectionSample.svelte";
     // import Login from "@header/login/login.svelte"
 </script>
 
 
 <Router>
-    <nav>
-        <Nav/>
-    </nav>
-    <header>
-        <Header/>
-    </header>
 
+    <Nav/>
+    <Header/>
+    <Aside/>
 
-    <aside>
-        <Aside/>
-    </aside>
+    <main>
+        <Route path="/">
+<!--            <SectionSample/>-->
+        </Route>
 
+        <Route path="/blog">
+            <SectionSample/>
+        </Route>
 
-    <div class="container">
-        <main>
-            <Route path="/">
-            </Route>
-        </main>
-    </div>
+    </main>
+
 
 </Router>
 
