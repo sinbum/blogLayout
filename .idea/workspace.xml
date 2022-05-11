@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bff4eb0-6d8e-4521-a263-82a3f8bc54ed" name="변경" comment="레이아웃 설정">
-      <change afterPath="$PROJECT_DIR$/src/components/main/section/sectionSample.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav/navbar.css" afterDir="false" />
+    <list default="true" id="5bff4eb0-6d8e-4521-a263-82a3f8bc54ed" name="변경" comment="기본 레이아웃 수정.&#10;부트스트랩 row,col 으로 레이아웃 구조 짜기.&#10;블로그형태의 서로 컨테이너 넣어서 잡아주기.">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/section/Article.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidebar/Aside.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/sidebar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/section/sectionSample.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/section/sectionSample.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/Nav.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/sidebar.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +36,17 @@
         <option value="HTML File" />
         <option value="sidebar\" />
         <option value="sectionSample" />
+        <option value="Article" />
+        <option value="Footer.svelte" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,6 +70,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,7 +98,7 @@
       <updated>1652181302329</updated>
       <workItem from="1652181304366" duration="992000" />
       <workItem from="1652182340814" duration="6053000" />
-      <workItem from="1652189554902" duration="3140000" />
+      <workItem from="1652189554902" duration="22829000" />
     </task>
     <task id="LOCAL-00001" summary="레이아웃 설정">
       <created>1652188942071</created>
@@ -87,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652188942071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="레이아웃 설정2">
+      <created>1652193078146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652193078146</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +149,8 @@
     </ignored-roots>
     <MESSAGE value="초기 세팅 시작" />
     <MESSAGE value="레이아웃 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="레이아웃 설정" />
+    <MESSAGE value="레이아웃 설정2" />
+    <MESSAGE value="기본 레이아웃 수정.&#10;부트스트랩 row,col 으로 레이아웃 구조 짜기.&#10;블로그형태의 서로 컨테이너 넣어서 잡아주기." />
+    <option name="LAST_COMMIT_MESSAGE" value="기본 레이아웃 수정.&#10;부트스트랩 row,col 으로 레이아웃 구조 짜기.&#10;블로그형태의 서로 컨테이너 넣어서 잡아주기." />
   </component>
 </project>

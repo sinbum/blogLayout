@@ -94,10 +94,13 @@ export default {
                 }, {
                     find: "@section",
                     replacement: path.resolve(__dirname, "src/components/main/section") //현재 디렉토리
+                }, {
+                    find: "@footer",
+                    replacement: path.resolve(__dirname, "src/components/footer") //현재 디렉토리
                 }
 
             ]
-        })
+        }),
     ],
     watch: {
         clearScreen: false
