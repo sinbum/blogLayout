@@ -1,6 +1,6 @@
 <script>
     import {Col, Row} from "sveltestrap";
-    import DetailComponent from "./DetailComponent.svelte";
+    import DetailComponent from "./ComponentBlogItem.svelte";
 
 </script>
 

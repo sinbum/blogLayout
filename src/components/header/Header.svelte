@@ -39,14 +39,11 @@
                 </NavItem>
                 <NavItem>
                     <NavLink>
-                        <Link to="blog" style="text-decoration: none;">기록</Link>
+                        <Link to="blog" style="text-decoration: none;">2면</Link>
                     </NavLink>
                 </NavItem>
-                <NavItem>
-                    <NavLink href="https://github.com/sinbum">깃헙</NavLink>
-                </NavItem>
                 <Dropdown nav inNavbar>
-                    <DropdownToggle nav caret>선택</DropdownToggle>
+                    <DropdownToggle nav caret>뒷장</DropdownToggle>
                     <DropdownMenu end>
                         <DropdownItem>Option 1</DropdownItem>
                         <DropdownItem>Option 2</DropdownItem>
