@@ -1,5 +1,5 @@
 <script>
-    import {Col, Container, Row} from "sveltestrap";
+    import {Container, Row} from "sveltestrap";
 </script>
 
 <Container style="height: 300px; margin-top: 20px" >
@@ -22,7 +22,7 @@
 
 <style>
     hr {
-        margin-top: 0px;
+        margin-top: 0;
 
     }
 
@@ -34,7 +34,7 @@
     }
 
     .content {
-        margin: 0px;
+        margin: 0;
         padding: 5px;
 
         display:-webkit-box;

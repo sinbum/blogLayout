@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bff4eb0-6d8e-4521-a263-82a3f8bc54ed" name="변경" comment="기본레이아웃 추가수정,&#10;스벨트 구조화,&#10;스벨트-네비게이션 라우터 설정,&#10;컴포넌트화(더욱 구조적으로 설계)">
+    <list default="true" id="5bff4eb0-6d8e-4521-a263-82a3f8bc54ed" name="변경" comment="일부 문제점 수정.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/SectionBlog.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/SectionBlog.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/SectionMain.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/SectionMain.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/blogListPage/BlogList.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/blogListPage/BlogList.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/blogListPage/DetailComponent.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/blogListPage/ComponentBlogItem.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/section/Article.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/section/sectionSample.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/blogListPage/ComponentBlogItem.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/blogListPage/ComponentBlogItem.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/sidebar/Aside.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/sidebar/Aside.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="28yGEmEzFKDojTwTG72beOU0fdS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,6 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -97,7 +96,7 @@
       <workItem from="1652181304366" duration="992000" />
       <workItem from="1652182340814" duration="6053000" />
       <workItem from="1652189554902" duration="24118000" />
-      <workItem from="1652350087194" duration="22410000" />
+      <workItem from="1652350087194" duration="22742000" />
     </task>
     <task id="LOCAL-00001" summary="레이아웃 설정">
       <created>1652188942071</created>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652373086096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="이름 일부 수정.&#10;대문 레이아웃 따는게 쉽지않음. css로 직접 그리드템플릿으로 구축해야함.">
+      <created>1652375365992</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652375365992</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +171,8 @@
     <MESSAGE value="레이아웃 설정2" />
     <MESSAGE value="기본 레이아웃 수정.&#10;부트스트랩 row,col 으로 레이아웃 구조 짜기.&#10;블로그형태의 서로 컨테이너 넣어서 잡아주기." />
     <MESSAGE value="기본레이아웃 추가수정,&#10;스벨트 구조화,&#10;스벨트-네비게이션 라우터 설정,&#10;컴포넌트화(더욱 구조적으로 설계)" />
-    <option name="LAST_COMMIT_MESSAGE" value="기본레이아웃 추가수정,&#10;스벨트 구조화,&#10;스벨트-네비게이션 라우터 설정,&#10;컴포넌트화(더욱 구조적으로 설계)" />
+    <MESSAGE value="이름 일부 수정.&#10;대문 레이아웃 따는게 쉽지않음. css로 직접 그리드템플릿으로 구축해야함." />
+    <MESSAGE value="일부 문제점 수정." />
+    <option name="LAST_COMMIT_MESSAGE" value="일부 문제점 수정." />
   </component>
 </project>
