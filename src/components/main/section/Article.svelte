@@ -4,7 +4,7 @@
 
 <article class="blog-post p-4" >
     <h2 class="blog-post-title">Another blog post</h2>
-    <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+<!--    <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>-->
 
     <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
     <blockquote>

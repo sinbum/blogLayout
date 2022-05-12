@@ -4,54 +4,49 @@
 
     // export let name;
     import Header from "~/components/header/Header.svelte";
-    import Article from "./components/main/section/Article.svelte";
-    import Aside from "@side/Aside.svelte";
     import Footer from "@footer/Footer.svelte";
+
+    import SectionBlog from "./components/main/SectionBlog.svelte";
+    import SectionMain from "./components/main/SectionMain.svelte";
+
     // import Login from "@header/login/login.svelte"
+
+
+    function createAnnouncement(route, location) {
+        const viewName = route.meta.name;
+        const {pathname} = location;
+        return `Navigated to the ${viewName} view at ${pathname}`;
+    }
+
+    //그리드 브레이크 아웃포인트
+    //     xs: 0,
+    //     sm: 576px,
+    //     md: 768px,
+    //     lg: 992px,
+    //     xl: 1200px,
+    //     xxl: 1400px
 
 </script>
 
+<Router a11y="{{createAnnouncement}}">
 
-<Container>
-    <Router>
-        <Header/>
+    <Row>
+        <Col sm="12" md={{ size: 10, offset: 1 }}>
+            <Header/>
 
-        <main>
+            <Route path="/" component="{SectionMain}"/>
+            <!--            <Route path="blog" component="{SectionBlog}"/>-->
 
-            <!--            //메인 페이지-->
-                        <Route path="/">
-                            <Row>
-                                <Col sm="9">
-                                    <div>main</div>
-
-                                </Col>
-                                <Col sm="3">
-                                    <div>
-                                        ChapterList
-                                    </div>
-                                </Col>
-                            </Row>
-
-<!--                            <Article/>-->
-                        </Route>
-
-            <!--            //블로그페이지-->
-            <Route path="/blog">
-                <Row class="mt-3">
-                        <Col>
-                            <Aside/>
-                        </Col>
-                        <Col md="9">
-                            <Article/>
-                        </Col>
-                </Row>
+            <Route path="blog/*">
+                <Route path="/" component="{SectionBlog}"/>
+                <!--                <Route path=":id" component={BlogPost} />-->
             </Route>
-        </main>
-        <Footer/>
 
-    </Router>
-</Container>
 
+            <Footer/>
+        </Col>
+    </Row>
+</Router>
 <style>
 
 </style>

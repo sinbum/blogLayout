@@ -83,24 +83,28 @@ export default {
                     find: "@header",
                     replacement: path.resolve(__dirname, "src/components/header") //현재 디렉토리
                 }, {
-                    find: "main",
+                    find: "@main",
                     replacement: path.resolve(__dirname, "src/components/main") //현재 디렉토리
                 }, {
                     find: "@nav",
                     replacement: path.resolve(__dirname, "src/components/nav") //현재 디렉토리
                 }, {
                     find: "@side",
-                    replacement: path.resolve(__dirname, "src/components/sidebar") //현재 디렉토리
+                    replacement: path.resolve(__dirname, "src/components/main/sidebar") //현재 디렉토리
                 }, {
                     find: "@section",
                     replacement: path.resolve(__dirname, "src/components/main/section") //현재 디렉토리
                 }, {
                     find: "@footer",
                     replacement: path.resolve(__dirname, "src/components/footer") //현재 디렉토리
+                },{
+                    find: "@fonts",
+                    replacement: path.resolve(__dirname, "public/asset/fonts") //현재 디렉토리
                 }
 
+
             ]
-        }),
+        })
     ],
     watch: {
         clearScreen: false
